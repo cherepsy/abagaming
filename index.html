@@ -105,8 +105,8 @@
     <p id="result"></p>
     <p id="gift"></p>
     
-    <audio id="correctSound" src="sounds/correct.mp3"></audio>
-    <audio id="wrongSound" src="sounds/wrong.mp3"></audio>
+    <audio id="correctSound" src="https://raw.githubusercontent.com/cherepsy/abagaming/main/correct.mp3"></audio>
+    <audio id="wrongSound" src="https://raw.githubusercontent.com/cherepsy/abagaming/main/wrong.mp3"></audio>
     
     <script>
         let score = 0;
@@ -127,7 +127,8 @@
         const wrongSound = document.getElementById("wrongSound");
 
         const emojis = ["💩", "😂", "🤢", "🥶", "😡", "🤡"];
-        const correctImage = "<img src='images/su.jpg' width='50' height='50'>";
+        const correctImage = "<img src='https://raw.githubusercontent.com/cherepsy/abagaming/main/su.jpg' width='50' height='50'>";
+
 
         startButton.addEventListener("click", startGame);
         restartButton.addEventListener("click", restartGame);
